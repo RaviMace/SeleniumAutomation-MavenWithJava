@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="XML Level Suite">
+  <test thread-count="5" name="XML Level Test1">
+    <classes>
+      <class name="com.testng.annotation.AnnotationXMLlevelDemo1"/>
+      <class name="com.testng.annotation.AnnotationXMLlevelDemo2"/>
+    </classes>
+  </test> <!-- XML Level Test -->
+
+  <test thread-count="5" name="XML Level Test2">
+    <classes>
+      <class name="com.testng.annotation.AnnotationXMLlevelDemo1"/>
+      <class name="com.testng.annotation.AnnotationXMLlevelDemo2"/>
+    </classes>
+  </test> <!-- XML Level Test -->
+
+</suite> <!-- XML Level Suite -->
